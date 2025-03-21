@@ -15,7 +15,7 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -88,6 +88,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: 33c3e8a057064344f8637a7df36aff63, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d426ae61756748278801f5f515d7a1ca_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 1feb3c922e02d724495cf15542c75463, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ffe27094f04a459d9b87d7adb3a6d7d9_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 1feb3c922e02d724495cf15542c75463, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ShadowTexture:
         m_Texture: {fileID: 2800000, guid: 1feb3c922e02d724495cf15542c75463, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -115,7 +123,7 @@ Material:
     - _AmbientStrength: -0.108
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _BrushStrokesNormalTiling: 0
+    - _BrushStrokesNormalTiling: 0.78
     - _BrushStrokesTiling: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -126,8 +134,12 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _EdgeSize: 1.2
     - _EnvironmentReflections: 1
-    - _Float: 1.09
+    - _Float: 44.71
+    - _Float_1: 1.17
+    - _Float_2: 0.78
+    - _Float_3: 0.84
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -140,8 +152,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RimBrighthness: 1.55
-    - _RimPower: 1.72
+    - _RimBrighthness: 1.09
+    - _RimPower: 0.72
     - _ShadowStep: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -150,12 +162,12 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _TexturedShadowStep: 0.5
-    - _ToonRampOffset: 0.502
+    - _ToonRampOffset: 0.503
     - _ToonRampOffsetPoint: 0.397
-    - _ToonRampSmoothness: 0.234
+    - _ToonRampSmoothness: 0.243
     - _USECUSTOMSHADOWTEXTURE: 0
     - _USETEXTURE: 0
-    - _Voronoi_density: 1.73
+    - _Voronoi_density: 2.27
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
