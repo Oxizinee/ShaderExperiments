@@ -97,7 +97,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTexture:
-        m_Texture: {fileID: 2800000, guid: 1feb3c922e02d724495cf15542c75463, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4cddf238605ca8c478ab8c1cf6e4e3a7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -134,7 +134,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EdgeSize: 1.2
+    - _EdgeSize: 1.05
     - _EnvironmentReflections: 1
     - _Float: 44.71
     - _Float_1: 1.17
@@ -144,7 +144,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _NoiseScale: 63.8
+    - _NoiseScale: 63.77
     - _NormalStrenght: 0.371
     - _NormalVoronoiStrenght: 0.452
     - _OcclusionStrength: 1
@@ -164,7 +164,7 @@ Material:
     - _TexturedShadowStep: 0.5
     - _ToonRampOffset: 0.503
     - _ToonRampOffsetPoint: 0.397
-    - _ToonRampSmoothness: 0.243
+    - _ToonRampSmoothness: 0.251
     - _USECUSTOMSHADOWTEXTURE: 0
     - _USETEXTURE: 0
     - _Voronoi_density: 2.27
@@ -176,9 +176,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _NoiseIntensity: {r: 0, g: 1, b: 0, a: 0}
     - _SecondColor: {r: 0.87169814, g: 0.46793172, b: 0.14309002, a: 0}
-    - _ShadowTextureColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ShadowTextureColor: {r: 1, g: 0.42830187, b: 0.42830187, a: 0}
     - _ShadowTextureColor_1: {r: 0, g: 0, b: 0, a: 0}
-    - _ShadowTextureTiling: {r: 5, g: 5, b: 0, a: 0}
+    - _ShadowTextureTiling: {r: 1, g: 1, b: 0, a: 0}
     - _ShadowTint: {r: 0.5989841, g: 0.42075467, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TexturedShadowStep: {r: 1.26, g: 1.75, b: 0, a: 0}

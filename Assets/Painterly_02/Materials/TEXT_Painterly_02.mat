@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6430206661058641933
+--- !u!114 &-122846406634442934
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,28 +20,23 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_Painterly_02
-  m_Shader: {fileID: -6465566751694194690, guid: 5a348637e5ef89c4daaa0ad3116f3216,
-    type: 3}
+  m_Name: TEXT_Painterly_02
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _USEALBEDOTEXTURE
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AlbedoTexture:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -82,18 +77,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ParallaxMapping_ed1c3b709b8c4b9f86981a2248d47b1c_Heightmap_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 4cddf238605ca8c478ab8c1cf6e4e3a7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_97567e5251fa4061a7bda5df339ea3dc_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 4cddf238605ca8c478ab8c1cf6e4e3a7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_de22196b348f4f529ec1d1510c4d8715_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 4cddf238605ca8c478ab8c1cf6e4e3a7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -112,7 +95,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AOSoftness: 7.99
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -126,49 +108,26 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EdgeCrispiness: 1
-    - _EdgeSofftenss: 0.079
     - _EnvironmentReflections: 1
-    - _Float: 0.44
-    - _Float_1: 0.22
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _IntersectionDepth: -0.8
-    - _IntersectionOffset: -0.6
-    - _IntersectionVisibility: 2
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _OclussionShowStrenght: 2
-    - _OclussionStrength: 0.8
-    - _Offset: -2.78
     - _Parallax: 0.005
-    - _Parralax: 23.4
-    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _ReflectionPow: 2.74
-    - _ReflectionPower: 1.19
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _USEALBEDOTEXTURE: 1
-    - _USEREFLECTION: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseColor1: {r: 0.88113207, g: 0.9516636, b: 1, a: 0}
-    - _BaseColor2: {r: 0.6999999, g: 0.8702469, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _IntersectionColor: {r: 0.5566037, g: 0.94216573, b: 1, a: 0}
-    - _MinMaxSteps: {r: 0, g: 1, b: 0, a: 0}
-    - _OcclusionColor: {r: 0, g: 0, b: 0, a: 0}
-    - _ReflectionColor1: {r: 1, g: 0.9553779, b: 0.7830188, a: 0}
-    - _ReflectionColor2: {r: 1, g: 0.46024254, b: 0.40566033, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
